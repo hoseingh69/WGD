@@ -5,5 +5,5 @@ Optimizers are key components of deep neural networks that perform weight update
 To use this method, it is enough to use the above optimizers when calling the optimizer.
 For example:
 
-
+from SGD import WGD_SGD
 optimizer = WGD_SGD(model.parameters(), lr 0.02, momentum=0.9,weight_decay = 0.0005)
